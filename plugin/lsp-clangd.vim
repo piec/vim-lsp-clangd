@@ -9,6 +9,6 @@ else
     let ex = exists("g:lsp_clangd_ignore_warning")
     if !ex || (ex && !g:lsp_clangd_ignore_warning)
         echo "Cannot find clangd"
-        echo "set 'g:lsp_clangd_ignore_warning = 1' if you do not want to see this warning"
+        echo "Use 'let g:lsp_clangd_ignore_warning = 1' if you do not want to see this warning"
     endif
 endif
